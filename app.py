@@ -41,7 +41,7 @@ def cctv4():
     return render_template("CCTV_4.html")
 
 @app.route("/Aircon")
-def ACD():
+def aircon():
     return render_template("AirconDesign.html")
 
 
