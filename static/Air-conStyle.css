@@ -1,0 +1,102 @@
+html {
+    overflow: hidden;
+}
+
+a {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-image: url("spacebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+p#header {
+    color: cyan;
+    font-family: "Nova Flat", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    border: 7px groove darkorchid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 40px 450px 0px 450px;
+    padding: 7px;
+}
+
+p#temperatureControls {
+    color: white;
+    font-family: "Nova Flat", Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 250px;
+}
+
+img#temperatureArrow {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-left: 72px;
+}
+
+p#powerControls {
+    margin-left: 46%;
+}
+
+img#powerButtonOn {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 320px;
+    left: 700px;
+}
+
+img#powerButtonOff {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+
+p#presetModes {
+    margin-left: 215px;
+    position: relative;
+    bottom: 90px;
+}
+
+img#coolMode {
+    width: 110px;
+    height: 110px;
+}
+
+img#fanMode {
+    width: 106px;
+    height: 106px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+img#powerSavingMode {
+    width: 107px;
+    height: 107px;
+}
+
+p#powerON {
+    color: white;
+    font-family: "Nova Flat", Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 375px;
+    left: 715px;
+}
+
+p#powerOFF {
+    color: white;
+    font-family: "Nova Flat", Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 555px;
+    left: 710px;
+}
