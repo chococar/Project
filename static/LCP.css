@@ -1,0 +1,413 @@
+h1 {
+    color: greenyellow;
+    text-align: center;
+    font-family:"Nova Flat",helvetica,sans-serif
+}
+
+body {
+    background-image: url("background.jpeg");
+}
+
+.container {
+	background-size: cover;
+    background-color: rgb(0, 0, 77);
+  padding: 20px;
+}
+
+.led-box {
+  height: 30px;
+  width: 25%;
+  margin: 10px 0;
+  float: left;
+}
+
+.led-box p {
+  font-size: 12px;
+  text-align: center;
+  margin: 1em;
+}
+
+.led-red {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #F00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkRed 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+
+.led-yellow {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #FF0;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 12px;
+
+}
+
+
+.led-green {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #ABFF00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+}
+
+.led-blue {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #24E0FF;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #006 0 -1px 9px, #3F8CFF 0 2px 14px;
+}
+
+
+
+.R{color:cyan;
+   font-family:"Nova Flat",helvetica,sans-serif}
+
+
+.button1{
+    background-color: green;
+    position:absolute;
+    left:170px;
+    top:180px;
+    border-radius:10px;
+}
+
+.button1:hover {
+    background-color:lawngreen;
+}
+
+.button2{
+    background-color: darkred;
+    position:absolute;
+    left:210px;
+    top:180px;
+    border-radius:10px;
+
+}
+
+.button2:hover {
+    background-color:red;
+}
+
+
+
+.button3{
+    background-color: green;
+    position:absolute;
+    left:540px;
+    top:180px;
+    border-radius:10px;
+
+}
+
+.button4{
+    background-color: darkred;
+    position:absolute;
+    left:580px;
+    top:180px;
+    border-radius:10px;
+
+}
+
+
+.button5{
+    background-color: green;
+    position:absolute;
+    right:590px;
+    top:180px;
+    border-radius:10px;
+
+}
+
+.button6{
+    background-color: darkred;
+    position:absolute;
+    right:543px;
+    top:180px;
+    border-radius:10px;
+
+}
+
+
+.button7{
+    background-color: green;
+    position:absolute;
+    right:220px;
+    top:180px;
+    border-radius:10px;
+
+}
+
+.button8{
+    background-color: darkred;
+    position:absolute;
+    right:173px;
+    top:180px;
+    border-radius:10px;
+
+}
+
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 20%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    position:absolute;
+    top:400px;
+    left:55px;
+    transform:rotate(90deg);
+    border-radius:100px;
+
+
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    background:url("lightbulb.png");
+    transform:rotate(270deg);
+
+ }
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    background:url("lightbulb.png");
+
+}
+
+
+
+
+
+
+
+
+
+.slidecontainer1 {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider1 {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 20%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    position:absolute;
+    top:400px;
+    left:423px;
+    transform:rotate(90deg);
+    border-radius:100px;
+
+}
+
+/* Mouse-over effects */
+.slider1:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider1::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    background:url("lightbulb.png");
+    transform:rotate(270deg);
+ }
+
+.slider1::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    background:url("lightbulb.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.slidecontainer2 {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider2 {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 20%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    position:absolute;
+    top:400px;
+    left: 793px;
+    transform:rotate(90deg);
+    border-radius:100px;
+}
+
+/* Mouse-over effects */
+.slider2:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider2::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    background:url("lightbulb.png");
+    transform:rotate(270deg);
+ }
+
+.slide2::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    background:url("lightbulb.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.slidecontainer3 {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider3 {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 20%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    position:absolute;
+    top:400px;
+    right: 63px;
+    transform:rotate(90deg);
+    border-radius:100px;
+
+}
+
+/* Mouse-over effects */
+.slider3:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider3::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    background:url("lightbulb.png");
+    transform:rotate(270deg);
+ }
+
+.slide3::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    background:url("lightbulb.png");
+}
+
