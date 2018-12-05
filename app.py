@@ -1,15 +1,14 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-
 @app.route("/")
-def loginpage():
-    return render_template("Login_Page.html")
-
-
-@app.route("/Main Page")
 def mainpage():
     return render_template("Main Page.html")
+
+
+@app.route("/Login_page")
+def loginpage():
+    return render_template("Login_Page.html")
 
 
 @app.route("/Reminder Page")
