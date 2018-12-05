@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel="icon" type="image/icon" href="airconicon.png">
+<link rel="stylesheet" href="{{ url_for('static', filename='Air-conStyle.css') }}">
+<title>
+Air Conditioning
+</title>
+</head>
+
+<body>
+<p id="header">
+Air-con Control Panel
+</p>
+
+<p id="temperatureControls">
+<img id="temperatureArrow" src="{{url_for('static',filename='arrowup.png')}}"/>
+<br>
+Temperature
+<br>
+<img id="temperatureArrow" src="{{url_for('static',filename='arrowup.png')}}" style="transform: rotate(180deg)">
+</p>
+
+<p id="powerControls">
+<img id="powerButtonOn" src="{{url_for('static',filename='powerbutton.png')}}">
+<br>
+<img id="powerButtonOff" src="{{url_for('static',filename='powerbutton.png')}}">
+</p>
+
+<p id="presetModes">
+<img id="coolMode" src="{{url_for('static',filename='cool.png')}}">
+<img id="fanMode" src="{{url_for('static',filename='fan.png')}}">
+<img id="powerSavingMode" src="{{url_for('static',filename='powersaving.png')}}">
+</p>
+
+<p id="powerON">
+ON
+</p>
+<p id="powerOFF">
+OFF
+</p>
+
+</body>
+</html>
