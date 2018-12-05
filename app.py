@@ -36,10 +36,13 @@ def cctv2():
 def cctv3():
     return render_template("CCTV_3.html")
 
-
 @app.route("/CCTV_4")
 def cctv4():
     return render_template("CCTV_4.html")
+
+@app.route("/Aircon")
+def aircon():
+    return render_template("AirconDesign.html")
 
 
 if __name__ == "__main__":
