@@ -43,6 +43,9 @@ def cctv4():
 def aircon():
     return render_template("AirconDesign.html")
 
+@app.route("/Lighting")
+def lighting():
+    return render_template("Lighting-control.html")
 
 if __name__ == "__main__":
     app.run()
